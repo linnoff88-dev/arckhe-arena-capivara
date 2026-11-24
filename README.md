@@ -1,4 +1,4 @@
-﻿# Arena da Capivara
+# Arena da Capivara
 
 <div align="center">
   <img src="capa/logo.svg" alt="Arckhé AI" height="48" />
@@ -6,7 +6,7 @@
 </div>
 
 
-[![Arena da Capivara](guia/assets/banner.jpg)](https://inematds.github.io/arena-capivara/guia/)
+[![Arena da Capivara](guia/assets/banner.jpg)](https://linnoff88-dev.github.io/
 
 **ðŸ‡§ðŸ‡· [PortuguÃªs](README.md) Â· ðŸ‡ºðŸ‡¸ [English](README.en.md) Â· ðŸ‡ªðŸ‡¸ [EspaÃ±ol](README.es.md)**
 
@@ -16,8 +16,8 @@ Inspirado no benchmark do pelicano de bicicleta de Simon Willison.
 
 ## ðŸ“– Guia e resultado
 
-- Guia (o que Ã©, como rodar, como montar o seu benchmark): **https://inematds.github.io/arena-capivara/guia/**
-- Resultado da rodada 1 (ranking, galeria, cÃ³digo de cada SVG): **https://inematds.github.io/arena-capivara/resultados/**
+- Guia (o que Ã©, como rodar, como montar o seu benchmark): **https://linnoff88-dev.github.io/
+- Resultado da rodada 1 (ranking, galeria, cÃ³digo de cada SVG): **https://linnoff88-dev.github.io/
 
 ## Rodada 1 (05/10/2026)
 
@@ -31,13 +31,13 @@ Inspirado no benchmark do pelicano de bicicleta de Simon Willison.
 | 6 | GPT-5.5 | assinatura ChatGPT/Codex | 71% |
 | 7 | Claude Sonnet 5.5 | assinatura Claude | 65% |
 
-Tabela completa (18 modelos com SVG vÃ¡lido; o Command R 35B nÃ£o entregou) na [pÃ¡gina de resultados](https://inematds.github.io/arena-capivara/resultados/). Juiz: Claude Sonnet 5.5, 306 confrontos. Segundo juiz (GPT-6 Luna) concordou em 92% dos 64 que refez. Lado esquerdo venceu 49,7% (sem viÃ©s de posiÃ§Ã£o). Uma tentativa por modelo: Ã© uma foto, nÃ£o uma sentenÃ§a.
+Tabela completa (18 modelos com SVG vÃ¡lido; o Command R 35B nÃ£o entregou) na [pÃ¡gina de resultados](https://linnoff88-dev.github.io/ Juiz: Claude Sonnet 5.5, 306 confrontos. Segundo juiz (GPT-6 Luna) concordou em 92% dos 64 que refez. Lado esquerdo venceu 49,7% (sem viÃ©s de posiÃ§Ã£o). Uma tentativa por modelo: Ã© uma foto, nÃ£o uma sentenÃ§a.
 
 ## Rodar no seu PC
 
 ```bash
 pip install cairosvg pillow
-git clone https://github.com/inematds/arena-capivara && cd arena-capivara
+git clone https://github.com/linnoff88-dev/arena-capivara && cd arena-capivara
 # edite arena/modelos.json com os modelos que vocÃª tem
 python3 arena/gerar.py           # pede o desenho a cada modelo
 python3 arena/renderizar.py      # SVG -> PNG + confrontos A|B
@@ -49,9 +49,9 @@ python3 arena/galeria.py         # resultados/index.html (+ en/ es/)
 
 Os confrontos (`resultados/pares/`) nÃ£o vÃ£o para o repositÃ³rio; o `renderizar.py` recria.
 
-Projeto irmÃ£o, da mesma palestra: [TrÃ­ade Letal](https://inematds.github.io/triade-letal/guia/), quando um agente de IA pode vazar seus dados.
+Projeto irmÃ£o, da mesma palestra: [TrÃ­ade Letal](https://linnoff88-dev.github.io/ quando um agente de IA pode vazar seus dados.
 
-LicenÃ§a MIT Â· [INEMA.CLUB](https://inema.club)
+LicenÃ§a MIT Â· [ARCKHÉ AI](https://ARCKHÉ AI)
 
 ---
 
