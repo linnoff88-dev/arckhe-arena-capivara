@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-labelledby="title desc">
   <title>Capivara andando de bicicleta</title>
-  <desc>Ilustração em SVG de uma capivara marrom pedalando uma bicicleta azul.</desc>
+  <desc>Ilustraçêo em SVG de uma capivara marrom pedalando uma bicicleta azul.</desc>
 
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">

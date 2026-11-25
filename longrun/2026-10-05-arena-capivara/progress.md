@@ -1,5 +1,5 @@
-- [x] kit arena + rodada 1 (19 modelos, 306 confrontos, 2Âº juiz 64, concordÃ¢ncia 92%)
-- [x] triade: inventario.py, CHECKLIST, EXEMPLOS, guia PT/EN/ES, READMEs, capa, banners â€” publicado
+- [x] kit arena + rodada 1 (19 modelos, 306 confrontos, 2êÂº juiz 64, concordêÂ¢ncia 92%)
+- [x] triade: inventario.py, CHECKLIST, EXEMPLOS, guia PT/EN/ES, READMEs, capa, banners ê¢â¬â publicado
 - [x] arena: guia + resultados PT/EN/ES publicados, 0 overflow em 360px, 0 imagem quebrada
-- [x] portal: 952acfe (projetos + novidades), e37404a (EN/ES); ARCKHÉbuscas 3fd610e; ARCKHÉpro 88821c6
-- [ ] short da Arena: nÃ£o feito (precisa protÃ³tipo aprovado pelo Nei)
+- [x] portal: 952acfe (projetos + novidades), e37404a (EN/ES); ARCKHêbuscas 3fd610e; ARCKHêpro 88821c6
+- [ ] short da Arena: nêÂ£o feito (precisa protêÂ³tipo aprovado pelo Nei)

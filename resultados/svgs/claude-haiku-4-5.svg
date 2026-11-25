@@ -15,7 +15,7 @@
   <!-- Céu -->
   <rect width="400" height="300" fill="#87CEEB"/>
   
-  <!-- Chão -->
+  <!-- Chêo -->
   <rect y="240" width="400" height="60" fill="#90EE90"/>
 
   <!-- Roda traseira -->
@@ -44,7 +44,7 @@
   <line x1="100" y1="220" x2="300" y2="220" stroke="#333" stroke-width="3"/>
   <line x1="200" y1="150" x2="200" y2="220" stroke="#333" stroke-width="3"/>
 
-  <!-- Guidão -->
+  <!-- Guidêo -->
   <line x1="300" y1="220" x2="320" y2="180" stroke="#333" stroke-width="3"/>
   <line x1="310" y1="200" x2="330" y2="200" stroke="#333" stroke-width="3"/>
 

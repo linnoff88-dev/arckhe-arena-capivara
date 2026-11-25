@@ -2,7 +2,7 @@
 
 [![Capybara Arena](guia/assets/banner-en.jpg)](https://linnoff88-dev.github.io/
 
-**ðŸ‡§ðŸ‡· [PortuguÃªs](README.md) Â· ðŸ‡ºðŸ‡¸ [English](README.en.md) Â· ðŸ‡ªðŸ‡¸ [EspaÃ±ol](README.es.md)**
+**ðŸ‡§ðŸ‡· [Português](README.md) Â· ðŸ‡ºðŸ‡¸ [English](README.en.md) Â· ðŸ‡ªðŸ‡¸ [Espaê±ol](README.es.md)**
 
 Which AI draws the best capybara riding a bicycle? We asked 19 models for the same SVG: 10 running on the computer itself (Ollama) and 9 through the Claude and ChatGPT subscriptions (the `claude` and `codex` CLIs). No paid API. A blind judge compared the drawings in pairs, in both orders.
 

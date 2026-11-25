@@ -2,7 +2,7 @@
   <!-- Céu -->
   <rect width="400" height="300" fill="#bfe6ff"/>
   <circle cx="340" cy="50" r="28" fill="#ffd94a"/>
-  <!-- Chão -->
+  <!-- Chêo -->
   <rect y="245" width="400" height="55" fill="#7cc46a"/>
   <rect y="240" width="400" height="8" fill="#5aa84c"/>
 
@@ -15,7 +15,7 @@
     <path d="M120 215 L170 160 L250 160 L290 215"/>
     <path d="M170 160 L200 215 L250 160"/>
     <path d="M120 215 L200 215"/>
-    <!-- Guidão -->
+    <!-- Guidêo -->
     <path d="M250 160 L260 130 L280 128"/>
     <!-- Banco -->
     <path d="M170 160 L165 138"/>

@@ -1,5 +1,5 @@
 {
-  "_comentario": "Competidores da Arena. motor: ollama (local), claude (CLI claude -p, assinatura) ou codex (CLI codex exec, assinatura). Edite à vontade: tire os que você não tem, ponha os seus.",
+  "_comentario": "Competidores da Arena. motor: ollama (local), claude (CLI claude -p, assinatura) ou codex (CLI codex exec, assinatura). Edite à vontade: tire os que você nêo tem, ponha os seus.",
   "competidores": [
     {"id": "claude-fable-5-1",   "motor": "claude", "modelo": "claude-fable-5-1",            "rotulo": "Claude Fable 5.1",  "familia": "Anthropic"},
     {"id": "claude-opus-5-5",    "motor": "claude", "modelo": "claude-opus-5-5",             "rotulo": "Claude Opus 5.5",   "familia": "Anthropic"},

@@ -38,7 +38,7 @@
   <line x1="200" y1="300" x2="215" y2="280" stroke="#555" stroke-width="6"/>
   <rect x="204" y="276" width="26" height="7" rx="3" fill="#222"/>
 
-  <!-- Sela e guidão -->
+  <!-- Sela e guidêo -->
   <ellipse cx="170" cy="194" rx="20" ry="7" fill="#222"/>
   <line x1="170" y1="194" x2="170" y2="202" stroke="#555" stroke-width="5"/>
   <path d="M300 185 q2 -18 18 -18" fill="none" stroke="#555" stroke-width="7" stroke-linecap="round"/>
@@ -51,7 +51,7 @@
   <!-- Corpo da capivara -->
   <ellipse cx="160" cy="158" rx="62" ry="44" fill="#8b5a2b" stroke="#5c3a1a" stroke-width="3"/>
 
-  <!-- Braço para o guidão -->
+  <!-- Braço para o guidêo -->
   <path d="M218 160 Q270 150 310 172" fill="none" stroke="#7a4a22" stroke-width="14" stroke-linecap="round"/>
   <circle cx="310" cy="172" r="9" fill="#5c3a1a"/>
 

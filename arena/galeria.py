@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Passo 5: gera a pÃ¡gina pÃºblica de resultados (resultados/index.html + en/ + es/).
+"""Passo 5: gera a pêÂ¡gina pêÂºblica de resultados (resultados/index.html + en/ + es/).
 
 Uso: python3 arena/galeria.py
 """
@@ -11,35 +11,35 @@ from comum import ARENA, RES
 
 TXT = {
     "pt": {
-        "lang": "pt-BR", "title": "Arena da Capivara â€” resultados",
+        "lang": "pt-BR", "title": "Arena da Capivara ê¢â¬â resultados",
         "h1": "Quem desenha melhor uma <span class='amb'>capivara de bicicleta</span>?",
-        "lead": "{n} modelos de IA receberam o mesmo pedido. Nenhum deles Ã© gerador de imagem: todos escrevem cÃ³digo SVG. Um juiz comparou os desenhos dois a dois, sem saber quem fez cada um.",
+        "lead": "{n} modelos de IA receberam o mesmo pedido. Nenhum deles êÂ© gerador de imagem: todos escrevem cêÂ³digo SVG. Um juiz comparou os desenhos dois a dois, sem saber quem fez cada um.",
         "prompt": "O pedido, igual para todos",
         "como": "Como foi medido",
         "como_itens": [
-            "{n} modelos: {loc} rodando no prÃ³prio computador (Ollama) e {nuv} pela assinatura (Claude Code e Codex). Nenhuma API paga.",
-            "Uma tentativa por modelo, no dia {data}. Rode de novo e o desenho muda: Ã© uma foto, nÃ£o uma sentenÃ§a.",
+            "{n} modelos: {loc} rodando no prêÂ³prio computador (Ollama) e {nuv} pela assinatura (Claude Code e Codex). Nenhuma API paga.",
+            "Uma tentativa por modelo, no dia {data}. Rode de novo e o desenho muda: êÂ© uma foto, nêÂ£o uma sentenêÂ§a.",
             "Juiz principal: <b>{juiz}</b>. Viu {j} confrontos, cada par nas duas ordens (esquerda/direita), sem os nomes.",
-            "Lado esquerdo venceu {viesA} das vezes (50% = sem viÃ©s de posiÃ§Ã£o).",
+            "Lado esquerdo venceu {viesA} das vezes (50% = sem viêÂ©s de posiêÂ§êÂ£o).",
             "{conc}",
-            "Ranking pela taxa de vitÃ³ria. O ELO (mÃ©dia de 200 ordens sorteadas) vem ao lado sÃ³ para comparar.",
+            "Ranking pela taxa de vitêÂ³ria. O ELO (mêÂ©dia de 200 ordens sorteadas) vem ao lado sêÂ³ para comparar.",
         ],
         "conc": "Segundo juiz (<b>{j2}</b>) refez {p} confrontos sorteados e concordou em {t}.",
         "conc_nao": "Sem segundo juiz nesta rodada.",
-        "podio": "PÃ³dio", "ranking": "Ranking completo",
-        "cols": ["#", "Desenho", "Modelo", "Onde roda", "VitÃ³rias", "Taxa", "ELO", "Tempo"],
+        "podio": "PêÂ³dio", "ranking": "Ranking completo",
+        "cols": ["#", "Desenho", "Modelo", "Onde roda", "VitêÂ³rias", "Taxa", "ELO", "Tempo"],
         "fam": {"Local": "no seu PC", "Anthropic": "assinatura Claude", "OpenAI": "assinatura ChatGPT/Codex"},
-        "sem": "nÃ£o entregou SVG vÃ¡lido", "naorodou": "nÃ£o rodou",
-        "duelo": "O confronto mais desigual", "duelo_txt": "Primeiro contra Ãºltimo colocado. O que o juiz escreveu:",
+        "sem": "nêÂ£o entregou SVG vêÂ¡lido", "naorodou": "nêÂ£o rodou",
+        "duelo": "O confronto mais desigual", "duelo_txt": "Primeiro contra êÂºltimo colocado. O que o juiz escreveu:",
         "local": "E os modelos locais?",
-        "local_txt": "O melhor modelo que roda no prÃ³prio computador foi <b>{m}</b>, em {p}Âº lugar de {n}. O pior da nuvem ficou em {pn}Âº.",
+        "local_txt": "O melhor modelo que roda no prêÂ³prio computador foi <b>{m}</b>, em {p}êÂº lugar de {n}. O pior da nuvem ficou em {pn}êÂº.",
         "galeria": "Todos os desenhos", "resposta": "resposta crua", "svg": "SVG",
         "motivo_nota": "",
-        "rodape": "Inspirado no benchmark do pelicano de bicicleta de Simon Willison. Kit aberto para vocÃª rodar com os seus modelos:",
+        "rodape": "Inspirado no benchmark do pelicano de bicicleta de Simon Willison. Kit aberto para vocêÂª rodar com os seus modelos:",
         "guia": "Como montar o seu", "seg": "s",
     },
     "en": {
-        "lang": "en", "title": "Capybara Arena â€” results",
+        "lang": "en", "title": "Capybara Arena ê¢â¬â results",
         "h1": "Which AI draws the best <span class='amb'>capybara riding a bicycle</span>?",
         "lead": "{n} AI models got the same request. None of them is an image generator: they all write SVG code. A judge compared the drawings in pairs, without knowing who made each one.",
         "prompt": "The request, identical for everyone (in Portuguese)",
@@ -67,31 +67,31 @@ TXT = {
         "guia": "Build your own", "seg": "s",
     },
     "es": {
-        "lang": "es", "title": "Arena del Capibara â€” resultados",
-        "h1": "Â¿QuÃ© IA dibuja mejor un <span class='amb'>capibara en bicicleta</span>?",
-        "lead": "{n} modelos de IA recibieron el mismo pedido. Ninguno genera imÃ¡genes: todos escriben cÃ³digo SVG. Un juez comparÃ³ los dibujos de dos en dos, sin saber quiÃ©n hizo cada uno.",
-        "prompt": "El pedido, igual para todos (en portuguÃ©s)",
-        "como": "CÃ³mo se midiÃ³",
+        "lang": "es", "title": "Arena del Capibara ê¢â¬â resultados",
+        "h1": "êÂ¿QuêÂ© IA dibuja mejor un <span class='amb'>capibara en bicicleta</span>?",
+        "lead": "{n} modelos de IA recibieron el mismo pedido. Ninguno genera imêÂ¡genes: todos escriben cêÂ³digo SVG. Un juez comparêÂ³ los dibujos de dos en dos, sin saber quiêÂ©n hizo cada uno.",
+        "prompt": "El pedido, igual para todos (en portuguêÂ©s)",
+        "como": "CêÂ³mo se midiêÂ³",
         "como_itens": [
-            "{n} modelos: {loc} corriendo en la propia computadora (Ollama) y {nuv} por la suscripciÃ³n (Claude Code y Codex). Ninguna API paga.",
+            "{n} modelos: {loc} corriendo en la propia computadora (Ollama) y {nuv} por la suscripciêÂ³n (Claude Code y Codex). Ninguna API paga.",
             "Un intento por modelo, el {data}. Si lo corres de nuevo el dibujo cambia: es una foto, no una sentencia.",
-            "Juez principal: <b>{juiz}</b>. Vio {j} enfrentamientos, cada par en los dos Ã³rdenes (izquierda/derecha), sin nombres.",
-            "El lado izquierdo ganÃ³ {viesA} de las veces (50% = sin sesgo de posiciÃ³n).",
+            "Juez principal: <b>{juiz}</b>. Vio {j} enfrentamientos, cada par en los dos êÂ³rdenes (izquierda/derecha), sin nombres.",
+            "El lado izquierdo ganêÂ³ {viesA} de las veces (50% = sin sesgo de posiciêÂ³n).",
             "{conc}",
-            "Ranking por tasa de victorias. El ELO (promedio de 200 Ã³rdenes sorteados) aparece al lado solo para comparar.",
+            "Ranking por tasa de victorias. El ELO (promedio de 200 êÂ³rdenes sorteados) aparece al lado solo para comparar.",
         ],
-        "conc": "Un segundo juez (<b>{j2}</b>) rehÃ­zo {p} enfrentamientos sorteados y coincidiÃ³ en {t}.",
+        "conc": "Un segundo juez (<b>{j2}</b>) rehêÂ­zo {p} enfrentamientos sorteados y coincidiêÂ³ en {t}.",
         "conc_nao": "Sin segundo juez en esta ronda.",
         "podio": "Podio", "ranking": "Ranking completo",
-        "cols": ["#", "Dibujo", "Modelo", "DÃ³nde corre", "Victorias", "Tasa", "ELO", "Tiempo"],
-        "fam": {"Local": "en tu PC", "Anthropic": "suscripciÃ³n Claude", "OpenAI": "suscripciÃ³n ChatGPT/Codex"},
-        "sem": "no entregÃ³ SVG vÃ¡lido", "naorodou": "no se ejecutÃ³",
-        "duelo": "El enfrentamiento mÃ¡s desigual", "duelo_txt": "Primero contra Ãºltimo. Lo que escribiÃ³ el juez (en portuguÃ©s):",
-        "local": "Â¿Y los modelos locales?",
-        "local_txt": "El mejor modelo que corre en la propia computadora fue <b>{m}</b>, en el puesto {p} de {n}. El mÃ¡s dÃ©bil de la nube quedÃ³ en el puesto {pn}.",
+        "cols": ["#", "Dibujo", "Modelo", "DêÂ³nde corre", "Victorias", "Tasa", "ELO", "Tiempo"],
+        "fam": {"Local": "en tu PC", "Anthropic": "suscripciêÂ³n Claude", "OpenAI": "suscripciêÂ³n ChatGPT/Codex"},
+        "sem": "no entregêÂ³ SVG vêÂ¡lido", "naorodou": "no se ejecutêÂ³",
+        "duelo": "El enfrentamiento mêÂ¡s desigual", "duelo_txt": "Primero contra êÂºltimo. Lo que escribiêÂ³ el juez (en portuguêÂ©s):",
+        "local": "êÂ¿Y los modelos locales?",
+        "local_txt": "El mejor modelo que corre en la propia computadora fue <b>{m}</b>, en el puesto {p} de {n}. El mêÂ¡s dêÂ©bil de la nube quedêÂ³ en el puesto {pn}.",
         "galeria": "Todos los dibujos", "resposta": "respuesta cruda", "svg": "SVG",
-        "motivo_nota": " (el juez escribiÃ³ en portuguÃ©s)",
-        "rodape": "Inspirado en el benchmark del pelÃ­cano en bicicleta de Simon Willison. Kit abierto para que lo corras con tus modelos:",
+        "motivo_nota": " (el juez escribiêÂ³ en portuguêÂ©s)",
+        "rodape": "Inspirado en el benchmark del pelêÂ­cano en bicicleta de Simon Willison. Kit abierto para que lo corras con tus modelos:",
         "guia": "Arma el tuyo", "seg": "s",
     },
 }
@@ -105,7 +105,7 @@ h1,h2,h3{font-family:Sora,Inter,sans-serif;line-height:1.2}a{color:var(--amb)}
 nav{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
 nav .wrap{display:flex;gap:12px;align-items:center;height:56px;flex-wrap:nowrap;overflow:hidden}
 nav .logo{font-weight:700;color:var(--amb);text-decoration:none;white-space:nowrap}
-nav .ARCKHÉ{color:var(--sky);text-decoration:none;font-weight:600}nav .pro{color:var(--pro);text-decoration:none;font-weight:700}
+nav .ARCKHê{color:var(--sky);text-decoration:none;font-weight:600}nav .pro{color:var(--pro);text-decoration:none;font-weight:700}
 nav .sp{flex:1}nav .lang a{color:var(--mut);text-decoration:none;margin-left:6px;font-size:14px}nav .lang a.on{color:var(--amb);font-weight:700}
 nav button{background:none;border:1px solid var(--line);color:var(--tx);border-radius:8px;padding:4px 8px;cursor:pointer}
 header{padding:48px 0 16px}header h1{font-size:clamp(28px,5vw,46px);margin:0 0 12px}.lead{color:var(--mut);font-size:18px;max-width:760px}
@@ -156,7 +156,7 @@ def pagina(lg, dados, prompt, data):
 
     podio = "".join(
         f"<div class='card'><img src='{img(r)}' alt='{html.escape(r['rotulo'])}' loading='lazy'>"
-        f"<div class='info'><div class='pos'>{r['posicao']}Âº</div><div class='nm'>{html.escape(r['rotulo'])}</div>"
+        f"<div class='info'><div class='pos'>{r['posicao']}êÂº</div><div class='nm'>{html.escape(r['rotulo'])}</div>"
         f"{fam(r)} <span class='mut'>{pct(r['taxa'])}</span></div></div>" for r in validos[:3])
 
     linhas = []
@@ -172,7 +172,7 @@ def pagina(lg, dados, prompt, data):
                 f"<td class='hide-m'>{r['elo']}</td><td class='hide-m'>{r['segundos']}{t['seg']}</td></tr>")
         else:
             linhas.append(
-                f"<tr><td>â€“</td><td></td><td><b>{html.escape(r['rotulo'])}</b><br><code class='mut'>{html.escape(r['modelo'])}</code></td>"
+                f"<tr><td>ê¢â¬â</td><td></td><td><b>{html.escape(r['rotulo'])}</b><br><code class='mut'>{html.escape(r['modelo'])}</code></td>"
                 f"<td>{fam(r)}</td><td colspan='4' class='mut'>{t['sem']}</td></tr>")
 
     duelo = ""
@@ -193,8 +193,8 @@ def pagina(lg, dados, prompt, data):
 
     gal = "".join(
         f"<div class='card'><img src='{img(r)}' alt='{html.escape(r['rotulo'])}' loading='lazy'><div class='info'>"
-        f"<b>{r['posicao']}Âº</b> {html.escape(r['rotulo'])}<br>"
-        f"<a href='{pre}svgs/{r['id']}.svg'>{t['svg']}</a> Â· <a href='{pre}respostas/{r['id']}.txt'>{t['resposta']}</a></div></div>"
+        f"<b>{r['posicao']}êÂº</b> {html.escape(r['rotulo'])}<br>"
+        f"<a href='{pre}svgs/{r['id']}.svg'>{t['svg']}</a> êÂ· <a href='{pre}respostas/{r['id']}.txt'>{t['resposta']}</a></div></div>"
         for r in validos)
 
     langs = "".join(f"<a href='{(pre + ('' if l == 'pt' else l + '/')) or './'}' class='{'on' if l == lg else ''}'>{l.upper()}</a>"
@@ -209,10 +209,10 @@ def pagina(lg, dados, prompt, data):
 <link rel="alternate" hreflang="es" href="https://linnoff88-dev.github.io/
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Sora:wght@700;800&family=JetBrains+Mono&display=swap" rel="stylesheet">
 <style>{CSS}</style></head><body>
-<nav><div class="wrap"><a class="logo" href="{guia}">ðŸ¦« Arena da Capivara</a><span class="mut">|</span>
-<a class="ARCKHÉ" href="https://ARCKHÉ AI" target="_blank">ARCKHÉ AI</a><span class="mut">-</span><a class="pro" href="https://ARCKHÉ.pro" target="_blank">PRO</a>
+<nav><div class="wrap"><a class="logo" href="{guia}">ê°Å¸Â¦Â« Arena da Capivara</a><span class="mut">|</span>
+<a class="ARCKHê" href="https://ARCKHê AI" target="_blank">ARCKHê AI</a><span class="mut">-</span><a class="pro" href="https://ARCKHê.pro" target="_blank">PRO</a>
 <span class="sp"></span><a class="sec" href="{guia}">{t['guia']}</a><span class="lang">{langs}</span>
-<button id="tg" aria-label="tema">ðŸŒ™</button></div></nav>
+<button id="tg" aria-label="tema">ê°Å¸Åâ¢</button></div></nav>
 <header class="wrap"><h1>{t['h1']}</h1><p class="lead">{t['lead'].format(n=n)}</p>
 <h3>{t['prompt']}</h3><div class="prompt">{html.escape(prompt)}</div></header>
 <main class="wrap">
@@ -223,10 +223,10 @@ def pagina(lg, dados, prompt, data):
 {local}{duelo}
 <section><h2>{t['galeria']}</h2><div class="gal">{gal}</div></section>
 </main>
-<footer class="wrap">{t['rodape']} <a href="https://github.com/linnoff88-dev/arena-capivara">github.com/linnoff88-dev/arena-capivara</a> Â· <a href="{guia}">{t['guia']}</a> Â· <a href="https://ARCKHÉ AI" target="_blank" style="color:var(--sky)">ARCKHÉ AI</a></footer>
+<footer class="wrap">{t['rodape']} <a href="https://github.com/linnoff88-dev/arena-capivara">github.com/linnoff88-dev/arena-capivara</a> êÂ· <a href="{guia}">{t['guia']}</a> êÂ· <a href="https://ARCKHê AI" target="_blank" style="color:var(--sky)">ARCKHê AI</a></footer>
 <script>
 const tgBtn=document.getElementById('tg');
-function aplicaTema(l){{document.body.classList.toggle('light',l);tgBtn.textContent=l?'â˜€ï¸':'ðŸŒ™'}}
+function aplicaTema(l){{document.body.classList.toggle('light',l);tgBtn.textContent=l?'ê¢Ëâ¬ê¯Â¸Â':'ê°Å¸Åâ¢'}}
 try{{aplicaTema(localStorage.getItem('tema')==='light')}}catch(e){{}}
 tgBtn.onclick=()=>{{const l=!document.body.classList.contains('light');aplicaTema(l);try{{localStorage.setItem('tema',l?'light':'dark')}}catch(e){{}}}};
 </script></body></html>"""
@@ -237,7 +237,7 @@ def main():
     validos = [r for r in dados["ranking"] if r["valido"]]
     if len(validos) >= 2:
         a, b = validos[0]["id"], validos[-1]["id"]
-        shutil.copy(RES / "pares" / f"{a}__{b}.png", RES / "duelo.png")  # pares/ nÃ£o vai pro git
+        shutil.copy(RES / "pares" / f"{a}__{b}.png", RES / "duelo.png")  # pares/ nêÂ£o vai pro git
         for linha in (RES / "julgamentos.jsonl").read_text().splitlines():
             j = json.loads(linha)
             if j["a"] == a and j["b"] == b and j.get("motivo"):

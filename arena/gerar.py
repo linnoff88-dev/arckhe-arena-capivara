@@ -26,7 +26,7 @@ def gerar_um(comp, prompt, refazer):
     erro, texto = None, ""
     try:
         texto = rodar(comp, prompt)
-    except Exception as e:  # falha do motor ≠ "não soube desenhar"
+    except Exception as e:  # falha do motor ≠ "nêo soube desenhar"
         erro = str(e)
     svg = extrair_svg(texto)
     segundos = round(time.time() - inicio, 1)

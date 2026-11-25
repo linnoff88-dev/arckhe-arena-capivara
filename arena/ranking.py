@@ -104,7 +104,7 @@ def main():
             pos = l["posicao"] or "-"
             vc = f"{l['vitorias']}/{l['confrontos']}"
             print(f"{pos:>2} {l['rotulo']:<20} {l['familia']:<10} {vc:>9} {l['taxa']:>6.0%} {str(l['elo'] or '-'):>6}"
-                  + ("" if l["valido"] else ("  (sem SVG válido)" if l["rodou"] else "  (não rodou)")))
+                  + ("" if l["valido"] else ("  (sem SVG válido)" if l["rodou"] else "  (nêo rodou)")))
 
 
 if __name__ == "__main__":

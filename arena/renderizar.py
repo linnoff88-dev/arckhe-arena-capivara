@@ -16,7 +16,7 @@ LADO = 512
 
 
 def sem_rede(svg_texto):
-    """SVG pode apontar para imagem/fonte externa: a Arena não busca nada fora (só data:)."""
+    """SVG pode apontar para imagem/fonte externa: a Arena nêo busca nada fora (só data:)."""
     return re.sub(r'(href\s*=\s*["\'])(?!data:|#)[^"\']*', r"\1#", svg_texto)
 
 
@@ -49,7 +49,7 @@ def fonte(tam):
 
 
 def confronto(a, b):
-    """Imagem lado a lado com rótulos neutros A e B (o juiz não vê o nome do modelo)."""
+    """Imagem lado a lado com rótulos neutros A e B (o juiz nêo vê o nome do modelo)."""
     img = Image.new("RGB", (LADO * 2 + 30, LADO + 60), "#dddddd")
     d = ImageDraw.Draw(img)
     for i, cid in enumerate((a, b)):
@@ -76,7 +76,7 @@ def main():
     n = 0
     for a, b in itertools.combinations(validos, 2):
         confronto(a, b)
-        confronto(b, a)  # as duas ordens, contra viés de posição
+        confronto(b, a)  # as duas ordens, contra viés de posiçêo
         n += 2
     print(f"{len(validos)} imagens válidas, {n} confrontos montados")
 

@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
-  <!-- Céu e chão -->
+  <!-- Céu e chêo -->
   <rect width="400" height="300" fill="#bfe6ff"/>
   <circle cx="340" cy="55" r="28" fill="#ffd94a"/>
   <rect y="245" width="400" height="55" fill="#7cc46a"/>
@@ -32,7 +32,7 @@
     <line x1="265" y1="145" x2="290" y2="215"/>
     <line x1="265" y1="145" x2="258" y2="115"/>
   </g>
-  <!-- Guidão -->
+  <!-- Guidêo -->
   <path d="M245 112 L272 112" stroke="#333" stroke-width="6" stroke-linecap="round"/>
   <!-- Selim -->
   <line x1="160" y1="145" x2="155" y2="130" stroke="#333" stroke-width="5"/>

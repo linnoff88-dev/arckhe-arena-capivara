@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Passo 3: um modelo-juiz olha cada confronto A|B e escolhe o melhor desenho.
 
-O juiz não sabe quais modelos fizeram cada imagem. Cada par é julgado nas duas ordens.
+O juiz nêo sabe quais modelos fizeram cada imagem. Cada par é julgado nas duas ordens.
 
 Uso:
-  python3 arena/julgar.py                                   # juiz padrão: Claude Sonnet 5.5
+  python3 arena/julgar.py                                   # juiz padrêo: Claude Sonnet 5.5
   python3 arena/julgar.py --juiz codex --modelo gpt-6-luna --amostra 60   # 2º juiz, para medir concordância
   python3 arena/julgar.py --paralelo 4
 """
